@@ -1,6 +1,43 @@
 *{ margin:0; padding:0; box-sizing:border-box;}
 
 body{
-	background: yellow;
+	background: rgb(255,223,65);
 	font-size: 20px;
+}
+
+#header{
+	text-align: left;
+	color: white;
+	background-color: black;
+	padding: 1em;
+	}
+
+nav a {
+	color: white;
+	float: right;
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+}
+
+section{
+	background-color: black;
+	color: white;
+	padding: 2em;
+	margin: 2em;
+	text-align: left;
+}
+
+footer{
+	padding: 2em;
+	clear: both;
+}
+
+.clearfix:after{
+	visibility: hidden; 
+	display: block;
+	font-size: 0; 
+	content:" ";
+	clear: both;
+	height: 0;
 }
