@@ -4,6 +4,9 @@
 	<title>ALsClayfigs</title>
 	<link rel="stylesheet" type="text/css" href="style2.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.5"></script>
 </head>
 <body>
 	<div class="wrapper" class="clearfix">
@@ -16,7 +19,9 @@
 								<a href="commission.html">Home</a>	
 						</nav>
 		</header>
-		<img id="mainimage" src="pics/pokemontm.JPG" alt="clayfigure" title="clayfigure">
+			<a class="fancybox" rel="group" target="_blank" href="pics/pokemon1.JPG">
+			<img id="mainimage" src="pics/pokemontm.JPG" alt="clayfigure" title="clayfigure">
+			</a>
 		<section>
 			<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -30,7 +35,13 @@
 			<p>insert text</p>
 	
 		</footer>
-	</div>	
+	</div>
+	<script type="text/javascript">
+
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+	</script>	
 </body>
 	
 </html>
