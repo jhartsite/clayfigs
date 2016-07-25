@@ -31,6 +31,10 @@ nav a {
 	font-size: 1.5em;
 }
 
+#mainimage{
+	padding: 2em;
+}
+
 section{
 	background-color: rgb(94,95,99);
 	color: black;
