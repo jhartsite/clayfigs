@@ -39,14 +39,15 @@ nav a {
 
 #mainimage{
 	padding: 2em;
+	float: left;
 }
 
 section{
 	background-color: rgb(94,95,99);
 	color: black;
 	font-family: 'Oswald', sans-serif;
-	padding: 2em;
-	margin: 2em;
+	padding: 4em;
+	margin: 3em;
 	text-align: left;
 	line-height: 1.5em;
 }
