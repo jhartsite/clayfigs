@@ -42,6 +42,11 @@ nav a {
 	float: left;
 }
 
+h2{
+	padding: 1em;
+
+}
+
 section{
 	background-color: rgb(94,95,99);
 	color: black;
