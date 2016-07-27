@@ -84,6 +84,7 @@ footer{
 
 @media only screen and (max-width: 850px) {
 	#mainimage{
+		width: 100%;
 		float: none;
 	}
 
