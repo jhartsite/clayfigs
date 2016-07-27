@@ -15,9 +15,10 @@ body{
 }
 
 h1{
-	background-image: url("../pics/image1.JPG");
+	background-image: url("./pics/alsbanner.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 1em;
 }
 
 #header{
