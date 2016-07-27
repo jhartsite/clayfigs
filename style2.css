@@ -91,4 +91,10 @@ footer{
    section{
    		padding: 2em;
    }
+
+@media only screen and (max-width: 650px){
+	nav a{
+		float: none;
+		font-size: 1em;
+	}
 }
