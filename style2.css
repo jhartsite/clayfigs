@@ -81,3 +81,10 @@ footer{
 	clear: both;
 	height: 0;
 }
+
+@media only screen and (max-width: 850px) {
+	#mainimage{
+		float: none;
+	}
+
+}
