@@ -82,7 +82,7 @@ footer{
 	height: 0;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1130px) {
 	#mainimage{
 		width: 100%;
 		float: none;
