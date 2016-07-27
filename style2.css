@@ -20,7 +20,9 @@ h1{
 	background-size: cover;
 	padding: 2em;
 }
-
+.titles{
+	font-size: 2em;
+}
 #header{
 	text-align: left;
 	font-family:'Oswald', sans-serif;
