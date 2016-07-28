@@ -97,4 +97,13 @@ footer{
 		float: none;
 		font-size: 1em;
 	}
+
+	#mainimage{
+		padding: 1em;
+		width: 100%;
+	}
+	
+	section{
+		margin: 1em;
+	}
 }
