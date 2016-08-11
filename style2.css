@@ -1,6 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
 *{ margin:0; padding:0; box-sizing:border-box;}
 
 body{
-	background: yellow;
+	background: black;
 	font-size: 20px;
+}
+
+.wrapper{
+	background-color: rgb(0,28,68);
+	max-width: 60em;
+	margin: auto;
+
+}
+
+h1{
+	background-image: url("./pics/alsbanner2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2em;
+}
+.titles{
+	font-size: 2em;
+}
+#header{
+	text-align: left;
+	font-family:'Oswald', sans-serif;
+	color: black;
+	background-color: rgb(229,201,51);
+	padding: 1em;
+	}
+
+#instagram{
+	float: right;
+	padding: 1em;
+
+}
+nav a {
+	background-color: rgb(229,201,51);
+	color: black;
+	float: right;
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+#mainimage{
+	padding: 2em;
+	float: left;
+}
+
+h2{
+	padding: 1em;
+
+}
+
+section{
+	background-color: rgba(162,159,159,1);
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	padding: 5em;
+	margin: 3em;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+footer{
+	background-color: rgb(229,201,51);
+	font-family:'Oswald', sans-serif;
+	padding: 2em;
+	clear: both;
+}
+
+.clearfix:after{
+	visibility: hidden; 
+	display: block;
+	font-size: 0; 
+	content:" ";
+	clear: both;
+	height: 0;
+}
+
+@media only screen and (max-width: 1130px) {
+	#mainimage{
+		width: 100%;
+		float: none;
+	}
+
+   section{
+   		padding: 2em;
+   }
+
+@media only screen and (max-width: 650px){
+	nav a{
+		float: none;
+		font-size: 1em;
+	}
+
+	#mainimage{
+		padding: 1em;
+		width: 100%;
+	}
+	
+	section{
+		margin: 1em;
+	}
 }
