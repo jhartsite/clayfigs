@@ -64,6 +64,13 @@ section{
 	margin: 3em;
 	text-align: left;
 	line-height: 1.5em;
+
+}
+
+.right{
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 footer{
