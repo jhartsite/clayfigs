@@ -55,7 +55,9 @@ h2{
 	padding: 1em;
 
 }
-
+#creations{
+	font-size: 1.5em;
+}
 section{
 	background-color: rgba(162,159,159,1);
 	color: black;
@@ -68,6 +70,7 @@ section{
 }
 
 .right{
+	padding: 1em;
 	margin-left: auto;
 	margin-right: auto;
 
