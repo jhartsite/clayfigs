@@ -61,6 +61,7 @@ h2{
 
 .desc{
 	text-decoration: none;
+	 font-family:'Oswald', sans-serif;
 
 }
 section{
@@ -75,7 +76,7 @@ section{
 }
 
 .right{
-	padding: 1em;
+	padding: 1.5em;
 	margin-left: auto;
 	margin-right: auto;
 
