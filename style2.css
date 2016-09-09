@@ -58,6 +58,11 @@ h2{
 #creations{
 	font-size: 1.5em;
 }
+
+.desc{
+	text-decoration: none;
+
+}
 section{
 	background-color: rgba(162,159,159,1);
 	color: black;
