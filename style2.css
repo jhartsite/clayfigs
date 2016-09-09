@@ -123,3 +123,10 @@ footer{
 		margin: 1em;
 	}
 }
+
+@media only screen and (max-width: 850px){
+	.right{
+		width: 100%;
+		padding: 1em;
+	}
+}
