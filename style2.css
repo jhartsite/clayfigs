@@ -81,13 +81,12 @@ section{
 
 }
 
-.right{
+/*.right{
 	padding: 1.5em;
 	margin-left: auto;
 	margin-right: auto;
 
-}
-
+}*/
 footer{
 	background-color: rgb(229,201,51);
 	font-family:'Oswald', sans-serif;
