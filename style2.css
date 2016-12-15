@@ -92,6 +92,9 @@ footer{
 	padding: 2em;
 	clear: both;
 }
+.copyright{
+	font-size: 1em;
+}
 
 .clearfix:after{
 	visibility: hidden; 
